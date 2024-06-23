@@ -10,6 +10,13 @@ namespace SingletonDesignPattern3
     {
         static void Main(string[] args)
         {
+            Singleton s1 = Singleton.Instance; 
+            Singleton s2 = Singleton.Instance;
+
+            Console.WriteLine(s1 == s2);
+
+            Console.ReadLine();
+
         }
     }
 }
