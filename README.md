@@ -1,1 +1,3 @@
 # SingletonDesignPattern
+
+The Singleton design pattern was chosen to ensure that a class has only one instance and provides a global point of access to that instance. This is particularly useful in scenarios where a single point of control is needed, such as managing a shared resource or coordinating actions across an application. By implementing the Singleton pattern, we can prevent multiple instances of the class, thereby maintaining consistent state and behavior throughout the application. Additionally, the Singleton pattern can improve performance by reducing the overhead associated with creating and managing multiple instances
